@@ -18,6 +18,22 @@ Incluye además herramientas para generar reportes y análisis del rendimiento m
 
 ---
 
+## 🖥️ Ejecutable para Windows
+
+Este repositorio incluye un ejecutable para Windows que permite ejecutar el programa sin necesidad de instalar Python ni dependencias.
+
+📁 Ubicación:
+
+```bash
+bin/water_sort_solver.exe
+```
+
+Solo necesitas descargar el repositorio y ejecutar el archivo .exe.
+
+⚠️ Nota: El ejecutable está compilado para Windows 64-bit.
+
+---
+
 ## 🚀 Requisitos previos
 
 Asegúrate de tener instalado **Python 3.9 o superior**.  
@@ -71,7 +87,7 @@ pip install -r requirements.txt
 Una vez instaladas las dependencias, puedes ejecutar el juego con interfaz gráfica:
 
 ```bash
-python water_sort_solver.py
+python main.py
 ```
 
 Esto abrirá la ventana del juego en Pygame y permitirá jugar o visualizar cómo el algoritmo resuelve el puzzle automáticamente.
